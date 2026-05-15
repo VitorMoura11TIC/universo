@@ -10,3 +10,21 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+header{
+    height: 122px;
+    display: flex;
+    padding-inline: 72px;
+    align-items: center;
+    gap: 32px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 32px;
+        a{
+            font-size: 22px;
+            text-decoration: none;
+            color: #c4c4cc;
+        }
+    }
+}
